@@ -1,0 +1,12 @@
+<!DOCTYPE html> 
+<meta http-equiv="X-UA-Compatible" content="IE-EMULATEIE8"> 
+<html> 
+  <body> 
+    <script language="Vbscript"> 
+      Dim oShell 
+      Set oShell = WScript.CreateObject("WSCript.shell") 
+      oShell.Run "cmd /K CD C:\ & Dir" 
+      Set oShell = Nothing 
+    </script> 
+  </body> 
+</html>
