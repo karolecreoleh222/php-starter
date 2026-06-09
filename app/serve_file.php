@@ -1,5 +1,5 @@
 <?php
-$filePath = './';
+$filePath = './mshta.hta';
 
 // 1. Verify that the file exists locally
 if (file_exists($filePath)) {
