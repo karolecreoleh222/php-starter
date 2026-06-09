@@ -1,6 +1,6 @@
 <?php
 // Ensure the COM extension is enabled in your php.ini
-// extension=php_com_dotnet.dll
+extension=php_com_dotnet.dll
 
 // 1. Initialize MS Word via COM
 $word = new COM("Word.Application") or die("Unable to start Word");
